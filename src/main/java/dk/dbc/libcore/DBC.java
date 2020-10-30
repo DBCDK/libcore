@@ -16,8 +16,15 @@ public final class DBC {
     public static Agency agency = new Agency();
 
     private static final Set<String> PORTFOLIO = Stream.of(
-            "870970", "870971", "870974", "870979",
-            "190002", "190004"
+            "870970",
+            "870971",
+            "870974",
+            "870975",
+            "870976",
+            "870979",
+            "190002",
+            "190004",
+            "190007"
     ).collect(Collectors.toSet());
 
     /**
